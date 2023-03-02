@@ -23,7 +23,7 @@ const userModel = mongoose.Schema({
         required: [true, 'state is required']
     },
     pincode: {
-        type: Number,
+        type: String,
         required: [true, 'pincode is required']
     },
     createdOn: {
